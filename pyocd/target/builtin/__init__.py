@@ -131,6 +131,7 @@ from . import target_ytm32b1me0
 from . import target_ytm32b1md1
 from . import target_STM32H723xx
 from . import target_STM32H743xx
+from . import target_STM32G474xx
 
 ## @brief Dictionary of all builtin targets.
 #
@@ -216,6 +217,7 @@ BUILTIN_TARGETS = {
           'stm32l031x6' : target_STM32L031x6.STM32L031x6,
           'stm32h723xx' : target_STM32H723xx.STM32H723xx,
           'stm32h743xx' : target_STM32H743xx.STM32H743xx,
+          'stm32g474xx' : target_STM32G474xx.STM32G474xx,
           'w7500': target_w7500.W7500,
           's5js100': target_s5js100.S5JS100,
           'lpc11xx_32': target_LPC1114FN28_102.LPC11XX_32,
